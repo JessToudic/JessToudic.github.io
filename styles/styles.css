@@ -199,7 +199,7 @@
 
     .main__content h1 {
         font-size: 4rem;
-        margin-top: 3rem;
+        margin: 0;
     }
 
     .main__content h2 {
@@ -207,7 +207,6 @@
     }
 
     .main__content p {
-        margin-top: 2rem;
         font-size: 1.2rem;
     }
 
@@ -216,8 +215,6 @@
     }
 
     #main__name {
-        /* padding: 13px 36px;
-        margin: 2.5rem 0; */
         font-size: 4.5rem;
     }
 
