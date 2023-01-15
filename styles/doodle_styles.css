@@ -96,7 +96,7 @@
 .main__story h1 {
     color: black;
     margin: 10px auto;
-    text-align: left;
+    text-align: center;
 }
 
 .main__story h3 {
@@ -135,8 +135,8 @@
     justify-self: center;
     justify-content: space-between;
     margin: 20px auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: white;
     z-index: 1;
     width: 100%;
@@ -155,8 +155,8 @@
     justify-self: center;
     justify-content: space-between;
     margin: 20px auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: white;
     z-index: 1;
     width: 100%;
@@ -285,11 +285,6 @@ hr {
 
     .main__story h3 {
         font-size: 0.8rem;
-    }
-
-    .main__imgs {
-        display: grid;
-        grid-template-columns: 1fr;
     }
 
     .main__imgs2 {

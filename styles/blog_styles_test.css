@@ -173,6 +173,7 @@ hr {
     width: 80%;
     background-color: white;
     color: rgb(205, 205, 205);
+    padding: 0;
 }
 
 #maths h1 {
@@ -288,9 +289,8 @@ hr {
     }
 
     .main__story {
-        padding: 0px 10px 0px 10px;
-        margin: 0 10px 0 20px;
-        margin-bottom: 1rem;
+        padding: 10px;
+        margin-bottom: 0.5rem;
         width: 100%;
     }
 
@@ -353,6 +353,10 @@ hr {
         padding: 13px 36px;
         margin: 2.5rem 0;
         font-size: 4.5rem;
+    }
+
+    .main__story {
+        margin: 0;
     }
 
     .main__story h1 {
