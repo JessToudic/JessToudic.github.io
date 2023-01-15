@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Jess T.</title>
+    <link rel="stylesheet" href="/styles/common_styles.css">
+    <link rel="stylesheet" href="/styles/blog_styles_test.css">
+    <link rel="stylesheet" href="/styles/blog_navbar_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0ac3a88237.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Jess T.</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__btn">
+                    <a href="/index.html", id="home", class="navbar__word">Home</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/about.html", id="about", class="navbar__word">About</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/doodles.html", id="doodles" class="navbar__word">Doodles</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/art.html", id="art" class="navbar__word">Art</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/blog.html", id="blog", class="navbar__word">Blog</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/contact.html", id="contact", class="navbar__word">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Identifying drones using path signatures</h1>
+                <br>
+                <h3>December 2022</h3>
+            </div>
+            <hr>
+            <div class="main__story" style="text-align: justify;">
+                <p>
+                    &emsp; In the summer of my second year at Oxford I did a research project supervised by
+                    <a href="https://www.maths.ox.ac.uk/people/terry.lyons" target="_blank" style="text-decoration: underline;">Professor Terry Lyons</a>.
+                </p>
+                <h1>
+                    My Motivation.
+                </h1>
+                <p>
+                    &emsp; I wanted to get a glimpse into what mathematical research was like; as an undergrad,
+                    this is surprisingly hard to understand just from the course! One of my mentors at the time,
+                    <a href="https://www.maths.ox.ac.uk/people/rama.cont" target="_blank" style="text-decoration: underline;">Prof. Rama Cont</a>,
+                    suggested that a summer research project might help achieve this, so he set me up an interview.
+                    The interview was a success, and funding was found just in time. I was excited: by the end of the summer I'd have
+                    a far better awareness of what mathematical research entails!
+                </p>
+                <h1>
+                    The brief.
+                </h1>
+                <p style="width: 80%;">
+                    'You have a signal that is (to start with) zero and then 1000 electromagnetic waves sine waves
+                    and then zero. In fact, the period of the signal is 1ghz, or 30cm wavelength. It hits and reflects
+                    off two moving objects: one at low speed (a drone) and a second rotating device (a propellor spinning
+                    on the drone).
+
+                    Challenge 1: make a very simple model for the reflected signal observed at the source.
+
+                    Then we want to align it with the delayed original signal to create a 2D path. This happens 8000
+                    times a second. We want to look at these paths and see if we can (use signatures to) see the speed
+                    of the blades etc.'
+                </p>
+                <img src="/images/blog/drone.jpg" style="width: 50%" alt="">
+                <h1>
+                    The project.
+                </h1>
+                <p>
+                    &emsp; I was <i>brilliantly</i> equipped for this project: I had no understanding of how to start researching, and no Python knowledge (something it turned
+                    out that I needed...). Oh, and I'd only chosen any pure maths courses so far, but the project was very applied. This meant that I didn't know what
+                    a model was, let alone how to create one (even if it only needed to be 'very simple'). Sounds like a recipe for success to me! &#128514;
+                </p>
+                <p>
+                    &emsp; Whilst I was simply emailed the quoted brief above, others doing different projects had been given research papers to start reading.
+                    I took inspiration, and started reading papers (after Googling what a model was...). Somehow, after half a Codecademy course, lots of reading,
+                    and some much-needed help from Terry's PhD student
+                    <a href="https://www.imperial.ac.uk/people/c.salvi" target="_blank" style="text-decoration: underline;">Cris</a>, I made some progress! It wasn't a complete project, but it was something.
+                </p>
+                <p>
+                    &emsp; <a href="https://scholar.google.com/citations?user=AFrbsYYAAAAJ&hl=en" target="_blank" style="text-decoration: underline;">Peter Foster</a> tidied up and finished the project, and it's now an example on the Datasig website:
+                    <a href="https://datasig.ac.uk/examples" target="_blank" style="text-decoration: underline;">Identifying Drones</a>.
+                    In particular, here's the write-up on GitHub:
+                    <a href="https://github.com/datasig-ac-uk/signature_applications/blob/master/drone_identification/drone_identification.ipynb" target="_blank" style="text-decoration: underline;">Path Signatures for Drone Identification using esig</a>.
+                </p>
+                <h1>
+                    My advice.
+                </h1>
+                <p>
+                    &emsp; If you're a current student about to embark on your first research project, my advice is to not worry! Take it slowly, and don't
+                    hesitate to ask for help when you need it. It might feel like you're making no progress, but you will eventually. Good luck! :)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer--wrap">
+            <div class="footer__icons">
+                <a href="https://www.instagram.com/yippeeyaydoodles/" class="footer__icon--link" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/JessToudic" class="footer__icon--link" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://je.linkedin.com/in/jess-toudic" class="footer__icon--link" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <p></p>
+        <p>© Jess T. 2022. All rights reserved.</p>
+    </div>
+
+    <script src="/main/app.js"></script>
+</body>
+</html>

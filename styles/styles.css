@@ -1,0 +1,227 @@
+/* Navbar */
+
+#home {
+    color: white;
+    background: #fabbe3;
+    transition: all 0.2s ease;
+}
+
+#home:hover {
+    color: white;
+    background: black;
+    transition: all 0.2s ease;
+}
+
+/* Main  Section */
+
+.main {
+    background-color: white;
+    background-image: url("/images/doodles/hi_transparent2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 5px auto;
+    height: 100vh;
+    z-index: 1;
+    width: 80%;
+    max-width: 1300px;
+    padding: 0 50px;
+    text-decoration: none;
+    text-align: center;
+    position: top;
+}
+
+.main__container img {
+    position: center;
+    width: 50%;
+}
+
+.main__content {
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main__content h2 {
+    font-size: 4rem;
+    background-color: black;
+    background-image: black;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main__content h3 {
+    padding-top: 3rem;
+    color: grey;
+    font-weight: 100;
+    align-items: space-between;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    align-items: center;
+}
+
+#main__img {
+    width: 100%;
+    opacity: 0.2;
+}
+
+#main__img.center {
+    position: absolute;
+    z-index: 0;
+
+}
+
+#main__name {
+    font-size: 8rem;
+    text-decoration: none;
+    color: #efb0fe;
+    position: relative;
+    z-index: 2;
+    position: relative;
+}
+
+#main__name:hover {
+    color: black;
+    transition: all 0.2s ease;
+}
+
+#main__home {
+    color: #fabbe3;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+#main__home:hover {
+    color: black;
+    transition: all 0.2s ease;
+}
+
+#main__doodles {
+    color: #a599e8;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+#main__doodles:hover {
+    color: black;
+    transition: all 0.2s ease;
+}
+
+#main__blog {
+    color: rgb(97, 244, 252);
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+#main__blog:hover {
+    color: black;
+    transition: all 0.2s ease;
+}
+
+#main__contact {
+    color: #30D5C8;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+#main__contact:hover {
+    color: black;
+    transition: all 0.2s ease;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .main {
+        background-size: 200%;
+        background-position: top;
+    }
+
+    .main__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main__content {
+        text-align: center;
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .main__content h2 {
+        font-size: 3rem;
+    }
+
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        text-justify: center;
+    }
+
+    #main__name {
+        padding: 13px 36px;
+        margin: 2rem 0;
+        font-size: 6rem;
+    }
+
+    .footer__container {
+        margin-top: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main__content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .main__content h1 {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+
+    .main__content h2 {
+        font-size: 2.5rem;
+    }
+
+    .main__content p {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .main__content h3 {
+        font-size: 0.9rem;
+    }
+
+    #main__name {
+        padding: 13px 36px;
+        margin: 2.5rem 0;
+        font-size: 4.5rem;
+    }
+
+    .footer__container {
+        margin-top: auto;
+    }
+}

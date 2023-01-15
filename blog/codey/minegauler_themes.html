@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Jess T.</title>
+    <link rel="stylesheet" href="/styles/common_styles.css">
+    <link rel="stylesheet" href="/styles/blog_styles_test.css">
+    <link rel="stylesheet" href="/styles/blog_navbar_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0ac3a88237.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Jess T.</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__btn">
+                    <a href="/index.html", id="home", class="navbar__word">Home</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/about.html", id="about", class="navbar__word">About</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/doodles.html", id="doodles" class="navbar__word">Doodles</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/art.html", id="art" class="navbar__word">Art</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/blog.html", id="blog", class="navbar__word">Blog</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/main/contact.html", id="contact", class="navbar__word">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Minegauler Themes</h1>
+                <br>
+                <h3>December 2022</h3>
+            </div>
+            <hr>
+            <div class="main__story" style="text-align: justify;">
+                <p>
+                    &emsp; My good friend <a href="https://www.lewisgaul.co.uk/">Lewis Gaul</a>
+                    created a remake of the Minesweeper game:
+                    <a href="https://github.com/LewisGaul/minegauler">Minegauler</a>.
+                    It's got some funky features, like split-cell mode (big squares
+                    split into four smaller ones when clicked) and probability mode
+                    (the colour of the square conveys the probability of it being a mine).
+                    I'd recommend <a href="https://github.com/LewisGaul/minegauler">giving it a go</a>!
+                </p>
+                <h1>
+                    Minegauler Styles.
+                </h1>
+                <p>
+                    &emsp; Back in October 2021 when I first played Minegauler,
+                    there existed a 'styles' menu option.
+                    This gave the ability to change the style of the buttons 
+                    (before the buttons are pressed). Styles included 'Standard' (grey),
+                    'Textured' (grass-like) and 'Pi' (butterflies).
+                </p>
+                <p>
+                    &emsp; Halloween arrived, and this called for a Halloween
+                    style! Changing just the style of buttons before they were
+                    pressed didn't seem complete; for a truly Halloween theme, I felt that
+                    the whole board should be dark, and that the mines should be pumpkins!
+                    So we added 'numbers' and 'markers' (mines and flags) to the styles menu
+                    option. This involved a few small
+                    <a href="https://github.com/LewisGaul/minegauler/pull/149/commits/639476d219f58e157d9a855e5b8157cc6ba8bf49" target="_blank">tweaks</a> to the frontend. 
+                    But most of my contribution was deciding on the Halloween images.
+                </p>
+                <img src="/images/blog/styles_minegauler.png" alt="">
+                <figcaption>Styles menu option.</figcaption>
+                <p>
+                    &emsp; Then Christmas arrived, and you guessed it: time for a Christmas theme! 
+                    Since the frontend had already been
+                    updated to have the three categories of styles in the menu option,
+                    all I had to do was 
+                    <a href="https://github.com/LewisGaul/minegauler/pull/151" target="_blank">add the images</a>.
+                    I drew a Christmas tree (flag) icon and bauble (bomb) icon on my
+                    Microsoft Surface Pro and used those!
+                </p>
+                <div class="main__images">
+                    <div class="main__images_single">
+                        <img src="/images/blog/halloween_minegauler_2.png" alt="">
+                        <figcaption>Halloween Minegauler.</figcaption>
+                    </div>
+                    <div class="main__images_single">
+                        <img src="/images/blog/christmas_minegauler.png" alt="">
+                        <figcaption>Christmas Minegauler.</figcaption>
+                    </div>
+                </div>
+                <h1>Minegauler Themes.</h1>
+                <p>
+                    &emsp; Adding new styles was exciting, but being able to change
+                    the marker, button and number styles separately wasn't the best UI;
+                    in order to go from Standard to completely Halloweeny, you had to change three
+                    styles (buttons, markers and numbers). Changing from Standard to Halloweeny in just one
+                    click would be so much easier! It would come with the slight limitation of a lack of
+                    mixed themes (e.g. butterfly buttons and pumpkins as bombs),
+                    but mixed styles weren't particularly aesthetic anyway.
+                </p>
+                <p>
+                    &emsp; So, my next contribution was to
+                    <a href="https://github.com/LewisGaul/minegauler/pull/157" target="_blank">add a 'themes' menubar option</a>
+                    to replace the 'styles' one, so that numbers, buttons and markers would
+                    change appearance together. Each theme became represented by a mapping from
+                    cell image type (button/marker/number) to its corresponding style
+                    (denoted by the directory under which the correct images were placed).
+                    This coincided with moving the image files into new
+                    directories.
+                </p>
+                <img src="/images/blog/themes_minegauler.png" alt="">
+                <figcaption>Themes menu option.</figcaption>
+                <p>
+                    &emsp; Now there's five themes: Standard, Butterfly (formerly 'Pi'), Halloween,
+                    Textured and Christmas!
+                    <a href="https://github.com/LewisGaul/minegauler/releases" target="_blank">Try it out</a>! 🎉
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer--wrap">
+            <div class="footer__icons">
+                <a href="https://www.instagram.com/yippeeyaydoodles/" class="footer__icon--link" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/JessToudic" class="footer__icon--link" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://je.linkedin.com/in/jess-toudic" class="footer__icon--link" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <p></p>
+        <p>© Jess T. 2022. All rights reserved.</p>
+    </div>
+
+    <script src="/main/app.js"></script>
+</body>
+</html>

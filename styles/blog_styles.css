@@ -1,0 +1,347 @@
+/* Navbar */
+
+#blog {
+    color: white;
+    background: rgb(97, 244, 252);
+}
+
+#blog:hover {
+    color: white;
+    background: black;
+    transition: all 0.2s ease;
+}
+
+/* Main Section */
+
+.main {
+    background-color: white;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 5px auto;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    text-decoration: none;
+}
+
+.main__content {
+    margin: 10px 0;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    padding: 20px;
+    max-width: 1300px;
+}
+
+.main__content h1 {
+    font-size: 3rem;
+}
+
+.main__content h2 {
+    font-size: 4rem;
+    background-color: black;
+    background-image: black;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main__content p {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    max-width: 1000px;
+}
+
+.main__story {
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    margin: 20px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: auto auto;
+    text-align: center;
+    color: grey;
+}
+
+.main__story h1 {
+    color: black;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 50px;
+    width: 90%;
+}
+
+.main__story h3 {
+    color: black;
+    text-decoration: underline;
+    padding-top: 25px;
+    width: 80%;
+    justify-self: center;
+}
+
+.main__story h4 {
+    color: grey;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+    width: 70%;
+    justify-self: center;
+    padding-top: 4rem;
+}
+
+.main__story a {
+    color: black;
+    text-decoration: underline;
+}
+
+.main__story p {
+    padding: 10px;
+    width: 90%;
+    justify-self: center;
+    font-size: 0.9rem;
+}
+
+.main__story figcaption {
+    justify-self: center;
+    font-size: 0.8rem;
+}
+
+.main__story img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    max-width: 20rem;
+    justify-self: center;
+}
+
+.main__story iframe {
+    justify-self: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+hr {
+    clear: both;
+    display: block;
+    width: 80%;
+    background-color: white;
+    color: rgb(205, 205, 205);
+}
+
+#maths h1 {
+    background-color: rgb(255, 220, 144);
+}
+
+#maths img {
+    width: 15rem;
+    padding-top: 1rem;
+}
+
+#thoughts img {
+    width: 15rem;
+    padding-top: 1rem;
+}
+
+#codey img {
+    width: 15rem;
+    padding-top: 1rem;
+}
+
+#miscellaneous img {
+    width: 15rem;
+    padding-top: 1rem;
+}
+
+#thoughts h1 {
+    background-color: pink;
+}
+
+#codey h1 {
+    background-color: aquamarine;
+}
+
+#miscellaneous h1 {
+    background-color: rgb(160, 247, 251);
+}
+
+.main__images {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1300px;
+}
+
+.main__images_single {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1300px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .main__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main__content {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .main__content h2 {
+        font-size: 3rem;
+    }
+
+    .main__content p {
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+    #main__name {
+        padding: 13px 36px;
+        margin: 2rem 0;
+        font-size: 6rem;
+    }
+
+    .main__doodle_grid {
+        display: grid;
+        justify-content: center;
+        background-color: white;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr;
+        padding: none;
+    }
+
+    .doodles_grid_item {
+        background-color: rgb(54, 186, 219);
+        border: 1px solid #fff;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        -webkit-transition: all 0.3s ease-in-out;
+    }
+
+    .main__story {
+        padding: 0px 10px 0px 10px;
+        margin: 0 10px 0 20px;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .main__story h3 {
+        width: 90%;
+        padding-bottom: 0.5rem;
+    }
+
+    .main__story h4 {
+        width: 90%;
+    }
+
+    .main__story h1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .main__story iframe {
+        max-width: 85%;
+    }
+
+    .main__like {
+        padding: 0px 10px 0px 10px;
+        margin: 0 10px 0 20px;
+    }
+
+    hr {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .main__content h1 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .main__content h2 {
+        font-size: 2.5rem;
+    }
+
+    .main__content p {
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+    #main__name {
+        padding: 13px 36px;
+        margin: 2.5rem 0;
+        font-size: 4.5rem;
+    }
+
+    .main__doodle_grid {
+        display: grid;
+        justify-content: center;
+        background-color: white;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr;
+        padding: none;
+    }
+
+    .main__story h1 {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    .main__story h3 {
+        font-size: 1rem;
+    }
+
+    .main__story h4 {
+        font-size: 0.8rem;
+    }
+
+    .main__story p {
+        font-size: 0.8rem;
+    }
+}

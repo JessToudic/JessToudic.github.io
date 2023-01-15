@@ -1,0 +1,12 @@
+/* Navbar */
+
+#blog {
+    color: white;
+    background: rgb(97, 244, 252);
+}
+
+#blog:hover {
+    color: white;
+    background: black;
+    transition: all 0.2s ease;
+}

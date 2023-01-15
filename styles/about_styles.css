@@ -1,0 +1,238 @@
+/* Navbar */
+
+#about {
+    color: white;
+    background: #efb0fe;
+    transition: all 0.2s ease;
+}
+
+#about:hover {
+    color: white;
+    background: black;
+    transition: all 0.2s ease;
+}
+
+/* Main Section */
+
+.main {
+    background-color: white;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 5px auto;
+    height: 100vh;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 100%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 30%;
+    background: white;
+    color: black;
+}
+
+.column:hover img {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+#jersey_square {
+    background: #a599e8;
+    color: white;
+}
+
+#jersey_square:hover {
+    color: transparent;
+    background-image: url('/images/about/jersey.jpg');
+    background-size: 100%;
+    transition: all 0.3s ease;
+}
+
+#oxford {
+    background: #efb0fe;
+    color: #fff;
+}
+
+#oxford:hover {
+    color: transparent;
+    background-image: url('/images/about/sighs.jpeg');
+    background-size: 100%;
+    transition: all 0.3s ease;
+}
+
+#london {
+    background: #64e9de;
+    color: #fff;
+}
+
+#london:hover {
+    color: transparent;
+    background-image: url('/images/about/london.jpg');
+    background-size: 100%;
+    transition: all 0.3s ease;
+}
+
+#software {
+    background: #30D5C8;
+    color: #fff;
+}
+
+#software:hover {
+    color: transparent;
+    background-image: url('/images/about/python.jpg');
+    background-size: 100%;
+    transition: all 0.3s ease;
+}
+
+#yay_doodle {
+    background: #90e9ff;
+    color: #fff;
+}
+
+#yay_doodle:hover {
+    color: transparent;
+    background-color: white;
+    background-image: url('/images/about/blue_happy_doodle.png');
+    background-size: 101%;
+    transition: all 0.3s ease;
+}
+
+#thinking {
+    background: #fabbe3;
+    color: #fff;
+}
+
+#thinking:hover {
+    color: transparent;
+    background-image: url('/images/about/brain_art.jpg');
+    background-size: 100%;
+    transition: all 0.3s ease;
+}
+
+.grid-container {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+.grid-container div {
+    aspect-ratio: 1;
+}
+
+.grid-item {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: auto;
+        height: 150vh;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main__content {
+        text-align: left;
+        margin-bottom: 4rem;
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .main__content h2 {
+        font-size: 3rem;
+    }
+
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        text-justify: center;
+    }
+
+    #main__name {
+        padding: 13px 36px;
+        margin: 2rem 0;
+        font-size: 6rem;
+    }
+
+    .footer__container {
+        margin-top: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main__container {
+        height: 280vh;
+    }
+
+    .main__content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .main__content h2 {
+        font-size: 2.5rem;
+    }
+
+    .main__content p {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    #main__name {
+        padding: 13px 36px;
+        margin: 2.5rem 0;
+        font-size: 4.5rem;
+    }
+
+    .main__container {
+        display: column;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container {
+        display: table-column;
+        background-color: white;
+        padding-bottom: 20px;
+        margin-top: none;
+    }
+
+    .footer__container {
+        margin-top: auto;
+    }
+}
