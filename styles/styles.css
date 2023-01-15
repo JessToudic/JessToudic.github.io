@@ -180,8 +180,8 @@
     }
 
     #main__name {
-        padding: 13px 36px;
-        margin: 2rem 0;
+        /* padding: 13px 36px;
+        margin: 2rem 0; */
         font-size: 6rem;
     }
 
@@ -216,8 +216,8 @@
     }
 
     #main__name {
-        padding: 13px 36px;
-        margin: 2.5rem 0;
+        /* padding: 13px 36px;
+        margin: 2.5rem 0; */
         font-size: 4.5rem;
     }
 
