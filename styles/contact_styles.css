@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
     justify-self: center;
     margin: 5px auto;
     background-color: white;
@@ -82,6 +83,8 @@
         margin: 0 auto;
         margin-top: 20px;
         text-align: center;
+        height: 100%;
+        padding: 5px;
     }
 
     .main__content {
