@@ -16,6 +16,7 @@
 
 .main {
     background-color: white;
+    padding-bottom: 120px;
 }
 
 .main__container {
@@ -25,7 +26,6 @@
     align-items: center;
     justify-self: center;
     margin: 5px auto;
-    height: 100vh;
     background-color: white;
     z-index: 1;
     width: 100%;
@@ -197,7 +197,9 @@
 
 @media screen and (max-width: 480px) {
     .main__container {
-        height: 250vh;
+        height: 300vh;
+        display: column;
+        grid-template-columns: 1fr;
     }
 
     .main__content h1 {
@@ -218,11 +220,6 @@
         padding: 13px 36px;
         margin: 2.5rem 0;
         font-size: 4.5rem;
-    }
-
-    .main__container {
-        display: column;
-        grid-template-columns: 1fr;
     }
 
     .grid-container {

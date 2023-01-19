@@ -15,6 +15,7 @@
 
 .main {
     background-color: white;
+    padding-bottom: 120px;
 }
 
 .main__container {
@@ -235,7 +236,6 @@ hr {
 
     .main__story {
         padding: 0px 10px 0px 10px;
-        margin: 20px 10px 10px 20px;
         width: 80%;
     }
 

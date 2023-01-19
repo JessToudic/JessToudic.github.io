@@ -14,6 +14,7 @@
 /* Main Section */
 .main {
     background-color: white;
+    padding-bottom: 120px;
 }
 
 .main__container {
@@ -22,9 +23,7 @@
     align-items: center;
     justify-self: center;
     margin: 5px auto;
-    height: 100vh;
     background-color: white;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     text-decoration: none;
@@ -40,7 +39,6 @@
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: auto auto;
 }
 
 .main__story h1 {
@@ -53,6 +51,7 @@
     text-align: center;
     margin: 20px 20px;
     font-weight: 5;
+    word-break: break-word;
 }
 
 .main__story h6 {
@@ -105,7 +104,6 @@
 
     .main__story {
         padding: 0px 10px 0px 10px;
-        margin: 0 10px 0 20px;
     }
 
     .footer__container {
@@ -126,10 +124,6 @@
     .main__content p {
         margin-top: 2rem;
         font-size: 1.2rem;
-    }
-
-    .main__container {
-        margin-left: 10px;
     }
 
     .footer__container {

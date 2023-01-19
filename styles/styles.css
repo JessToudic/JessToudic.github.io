@@ -20,6 +20,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    padding-bottom: 120px;
 }
 
 .main__container {
@@ -28,7 +29,6 @@
     align-items: center;
     justify-self: center;
     margin: 5px auto;
-    height: 100vh;
     z-index: 1;
     width: 80%;
     max-width: 1300px;
@@ -36,6 +36,7 @@
     text-decoration: none;
     text-align: center;
     position: top;
+    min-height: 100%;
 }
 
 .main__container img {
@@ -180,8 +181,6 @@
     }
 
     #main__name {
-        /* padding: 13px 36px;
-        margin: 2rem 0; */
         font-size: 6rem;
     }
 

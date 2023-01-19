@@ -2,6 +2,7 @@
 
 .main {
     background-color: white;
+    padding-bottom: 120px;
 }
 
 .main__container {
@@ -365,6 +366,7 @@ hr {
 
     .main__story h3 {
         font-size: 1rem;
+        padding-top: 40px;
     }
 
     .main__story h4 {
