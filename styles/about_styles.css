@@ -115,7 +115,7 @@
 #yay_doodle:hover {
     color: transparent;
     background-color: white;
-    background-image: url('/images/about/blue_happy_doodle.png');
+    background-image: url('/images/about/blue_happy_doodle.jpg');
     background-size: 101%;
     transition: all 0.3s ease;
 }
