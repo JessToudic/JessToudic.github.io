@@ -19,6 +19,13 @@
     padding-bottom: 120px;
 }
 
+.main p {
+    color: grey;
+    text-align: center;
+    justify-self: center;
+    padding-top: 2rem;
+}
+
 .main__container {
     display: flex;
     flex-direction: column;
