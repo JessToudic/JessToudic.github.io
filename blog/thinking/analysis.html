@@ -138,28 +138,27 @@
                 <div class="main__images_single">
                     <img src="/images/blog/analysis_convergent_sequence.jpg" class="med_image" alt="">
                     <figcaption>
-                    [Definition of a convergent sequence.] Think of a 'sequence' as a bunch of dots, one placed 
-                    at each step as you walk left to right across the page forever. We say these dots 'converge' if, eventually 
+                    [Definition of a convergent sequence.] Think of a 'sequence' as a bunch of dots, one placed at some height
+                    for each step as you walk left to right across the page forever. We say these dots 'converge' if, eventually 
                     (i.e. as you travel further and further to the right), 
-                    all of the dots become the same height on the page. This diagram is showing a sequence which converges 
+                    all of the dots become arbitrarily close to the same height. This diagram is showing a sequence which converges 
                     to the blue line: no matter how small of a distance from this line we choose (the purple area), there is 
                     some dot (black dashed line) for which all dots after it are within this distance from the blue line 
-                    (within the purple shaded area). This purple shaded area is thought of as arbitrarily small, so there is 
-                    some dot for which all dots after it are along the blue line. That is, the dots have 'converged' to the 
-                    height of the blue line. 
+                    (within the purple shaded area). This purple shaded area is thought of as arbitrarily small, so eventually, 
+                    all dots are arbitrarily close to the blue line. That is, the dots 'converge' to the 
+                    height of the blue line. The height of the blue line is called the 'limit' of the sequence.
                     </figcaption>
                 </div>
                 <div class="main__images_single">
                     <img src="/images/blog/analysis_mst.jpg" class="med_image" alt="">
                     <figcaption>
                     [Monotonic Sequence Theorem.] A 'monotonic increasing' sequence is when each subsequent dot is either 
-                    the same height or higher than the previous one. If there is a maximum height for a 
-                    sequence (i.e. no dot can be above a certain height) and the sequence is monotonic increasing, then 
-                    eventually all dots will be the same height. If the sequence is not constant (every dot is not at the same height), 
-                    then this eventual height is the maximum height. Similarly, this is true for 'monotonic decreasing' sequences 
-                    with a minimum height (each dot is either the same height or lower than the previous one).
-                    (And as is probably clear, if a sequence is monotonic increasing/decreasing and eventually all dots are of the same height, then 
-                    the sequence has a maximum/minimum height, respectively.)
+                    the same height or higher than the previous one. If no dot can be above a certain height and the sequence 
+                    is monotonic increasing, then 
+                    the sequence converges. Similarly, this is true for 'monotonic decreasing' sequences 
+                    (each dot is either the same height or lower than the previous one) with a height that no dot can go below. 
+                    (And as is probably clear, if a sequence is monotonic increasing/decreasing and converges to some limit, 
+                    the dots cannot go above/below this limit, respectively.)
                     </figcaption>
                 </div>
                 <div class="main__images_single">
@@ -168,8 +167,9 @@
                     [Subsequence limit theorem.] A 'subsequence' is a selection of the dots that make up a sequence, that goes 
                     on forever just like the sequence. In this diagram, all of the dots (pink and purple) are a sequence, and 
                     the purple dots are a subsequence of it. 
-                    If the dots of the sequence are eventually all the height of the blue line, 
-                    then the dots of the subsequence (purple dots) are also all eventually the height of the blue line.
+                    If the dots of the sequence are eventually all arbitrarily close to the height of the blue line, 
+                    then the dots of the subsequence (purple dots) are also all eventually arbitrarily close to the height of the blue line. 
+                    That is, a subsequence of a convergent sequence converges.
                     </figcaption>
                 </div>
                 <p>
